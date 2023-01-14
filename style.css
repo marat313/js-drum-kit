@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.keys{
+  display: flex;
+  justify-content: center;
+  margin-top: 15rem;
+}
+
+.key{
+  margin: 5px;
+  background: #553363;
+  padding: 1rem;
+  cursor: pointer;
+  border: 2px solid green;
+  text-align: center;
+}
+.key:hover{
+  border-color: rgb(10, 92, 164);
+}
